@@ -1,0 +1,43 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Publishing Content</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m13054</md:content-id>
+  <md:title>Publishing Content</md:title>
+  <md:abstract>How to publish a module or collection in Connexions.</md:abstract>
+  <md:uuid>7a888ec6-4e64-4d2a-9b16-eff54d44767a</md:uuid>
+</metadata>
+
+<content>
+
+
+
+ 	<para id="submittext">To make any unpublished changes to an existing module or collection viewable by 
+	  anyone on the Internet, you must publish the content in Connexions. To
+	  publish content, use the following steps:
+	  
+	  <list id="submitmodulelist1" list-type="enumerated"><item>Click on the "Publish" tab. The <link target-id="publishfig">"Publish 
+	    Module"</link> (or "Publish Collection") screen displays. This screen contains a list of reminders 
+	    for you to check before you publish the content, as well as a reminder of the terms of the license agreement.</item>
+	    <item>Type a brief description of your new changes to the content in the 
+	    "Description of Changes" text box.</item>
+	    <item>Click <code>Publish</code>. Your changes to the content are
+	    entered into the Connexions Content Repository as a new version of the existing content (version 1.1 if the content is being published for the first time). Once in the Content
+	    Repository, anyone with Internet access can view the new version module or collection.</item>
+	  </list>
+	</para>
+	
+	<figure id="publishfig"><media id="id13673814" alt=""><image src="/content/m19610/latest/module-publish.png" mime-type="image/png"/></media>
+	  
+	<caption>The "Publish" tab on a module.</caption></figure>
+
+	<para id="submittext2">A new module or collection would not necessarily have editing changes, so in the 
+	  "Description of Changes" text box you might enter a comment like 
+	  "Created a new module" or "Created a new collection".
+	</para>
+
+	<note id="id13673843" type="note">Once published, a module or collection may not be "unpublished" or removed from the Content Repository. Therefore, <emphasis>use the <link document="m38209">Preview</link> feature</emphasis> to preview what the module or collection will look like once published; only publish when you are sure you have a draft that you don't mind making public.</note>
+
+
+  </content>
+  
+</document>

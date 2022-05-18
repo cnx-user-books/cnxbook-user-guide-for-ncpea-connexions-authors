@@ -1,0 +1,156 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Revising Your Content in Connexions</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m13055</md:content-id>
+  <md:title>Revising Your Content in Connexions</md:title>
+  <md:abstract>How to revise a Connexions document that was imported from a Microsoft Word document.</md:abstract>
+  <md:uuid>1f2dc8b8-0867-4784-801b-ec86c6b56aee</md:uuid>
+</metadata>
+
+<content>
+
+<note id="depricated" type="warning">This module contains Connexions documentation which is out-of-date.  The contents of this module are provided here for historical purposes only and <emphasis>should not be considered accurate</emphasis> for the current version of the Connexions website. The current documentation of topics in this module can be located at <link document="m38193">http://cnx.org/content/m38193/latest/</link>. Please visit the <link url="/help">help page</link> for up-to-date information about the Connexions website, including support for viewing and authoring content and the CNXML language. If you have any additional questions or cannot find the answer to your question, please contact <link url="mailto:techsupport@cnx.org">techsupport@cnx.org</link> and we will be happy to assist in any way we can.</note>
+  
+    <section id="mswordsect1">
+      <title>Options for Revising Your Connexions Content</title>
+        <para id="mswordpara1">
+          After you have imported a Microsoft Word file into a Connexions
+          module, you may discover that you need to revise the content. 
+          You have the option to make the revisions in the original Word 
+          document and then import it again into Connexions, or you can
+          revise the content within Connexions using the Edit-In-Place 
+          editor. This module explains how to revise your content using 
+          the Edit-In-Place editor. 
+        </para>
+    </section>
+
+
+    <section id="editinplacesec">
+      <title>Revising with the Edit-In-Place Editor</title>
+	<para id="eippara1">
+	   The Edit-In-Place editor is the default editor on the "Edit" tab. 
+	   You can insert new text and media objects into a module or modify 
+	   the existing contents of a module with this editor. You do not 
+	   have to be familiar with the CMXML tags to use Edit-In-Place. It 
+           inserts the appropriate CNXML tags for you when you insert a new
+           item in the file. In addition, it has a help text feature that 
+           describes the CNXML tags for the items you insert or edit with it. 
+       </para>
+	 
+       <section id="eipeditmodulesec">
+         <title>Editing Imported Content with Edit-In-Place</title>
+	   <para id="eipeditpara1">
+	     To edit the content of a module that you imported from a Word
+             document, use the following steps:
+	     
+	     <list id="eiplist2" list-type="enumerated">
+	       <item>Log into Connexions.</item>
+               <item>Display the Connexions workspace or workgroup in which                  
+               your document resides.</item>
+               <item>Display the module you want to edit with Edit-In-Place.
+	       </item>
+	       <item>Scroll down to display the gray text box that contains 
+	       the item you want to edit.</item>
+               <item>Click in the text box. The gray box is replaced by a 
+	       <link target-id="eipeditmodulefig">blue editing box</link> that displays the text of the item.	       
+	     <figure id="eipeditmodulefig">
+	       <media id="id3676467" alt=""><image src="../../media/EIPeditcontent.png" mime-type="image/png"/></media>
+	       <caption>The blue text box in the Edit-In-Place editor.</caption>
+	     </figure>
+               </item>
+	       <item>Make the necessary changes to the item.</item>
+	       <item>Click <code>Save</code> to save the entry or click 
+	       <code>Cancel</code> to clear the entry in the blue editing 
+	       box.</item>
+               <item>Repeat steps 4 through 7 for any item you want to edit.
+               </item>	       	  
+	     </list>  	 
+	     <note id="id9021359">In the gray text boxes mathematical equations are 
+	     displayed as they appear in the module. In the blue editing box 
+	     mathematical equations are displayed in the MathML markup language. 
+	     Edit equations by making changes to the MathML.</note>
+	   </para>  
+       </section>
+	       
+	     
+       <section id="eipadditemsec">
+         <title>Adding New Content with Edit-In-Place</title>
+	   <para id="eipadditempara1">
+	     You can add new content items to a module with Edit-In-Place.
+	     The types of items you can add are: paragraphs, enumerated lists,
+	     bulleted lists, equations, exercises, figures, code blocks, notes,
+	     and examples. Edit-In-Place places the opening and closing CNXML 
+	     tags around the item and it generates a unique item ID for each 
+	     item you add. To add new items, use the following steps:
+	     
+	     <list id="eipadditemlist" list-type="enumerated">
+	       <item>Log into Connexions.</item>
+               <item>Display the Connexions workspace or workgroup in which                  
+               your document resides.</item>
+	       <item>Display the module you want to edit with Edit-In-Place.
+	       </item>
+	       <item>Scroll down to display the location in the module in
+	       which you want to insert the content item. You can insert 
+	       the new item above or below and existing item by using the
+	       <code>Add Here</code> button above or below the existing item
+	       </item>
+	       <item>Select the type of item you want to enter from the 
+	       drop-down list next to the <code>Add Here</code> button. 
+	       The default is "Paragraph". These items are described in the 
+	       help text, which can be accessed by selecting "Other Elements" 
+	       from the drop-down list.</item> 
+	       <item>Click <code>Add Here</code>. An empty blue editing box 
+               displays for the item you selected. You can display help text 
+               for the item you selected by clicking <code>Help editing xxx</code> 
+	       in the upper right corner of the blue box, where xxx is the
+               CNXML tag for the item you selected.</item>
+	       <item>Type the text that is appropriate for the type of item 
+	       in the blue editing box.</item> 
+	       <item>Click <code>Save</code> to save the entry or click 
+	       <code>Cancel</code> to clear the entry in the blue editing box.</item>
+	       <item>Repeat steps 4 through 8 for each new content item 
+	       you want to add to the module.</item>
+	     </list>
+	   </para>
+   </section>
+
+
+     <section id="eipnewmodulesec">
+       <title>Inserting Content in an Empty Module</title>
+	 <para id="eippara2">
+	   To insert text and media objects into a new module that contains
+	   no content, use the following steps:
+	   
+	   <list id="eiplist1" list-type="enumerated">
+	       <item>Log into Connexions.</item>
+               <item>Display the Connexions workspace or workgroup in which                  
+               your document resides.</item>
+               <item>Display the module you want to edit with Edit-In-Place.
+	       </item>
+	     <item>Click in the <link target-id="eipnewmodulefig">gray box</link> that says "Click To Insert Text" 
+	     in the Edit-In-Place editor. 
+	  <figure id="eipnewmodulefig">
+	    <media id="id5148887" alt=""><image src="../../media/EIPnewmodule.png" mime-type="image/png"/></media>
+	    <caption>The "Click To Insert Text" text box in the 
+	    Edit-In-Place editor.</caption>
+	  </figure>
+	      The gray box is replaced by a blue editing box.</item>
+	     <item>Type the text you want to add in the <link target-id="eipinsertmodulefig">blue editing box</link> that 
+	     says "Insert Module Text Here".	     
+	  <figure id="eipinsertmodulefig">
+	    <media id="id8313907" alt=""><image src="../../media/EIPinsertmoduletext.png" mime-type="image/png"/></media>
+	    <caption>The "Insert Module Text Here" editing box in the 
+	    Edit-In-Place editor.</caption>
+	  </figure>
+	     </item>
+	     <item>Click <code>Save</code> to save the text you typed. 
+	     The blue editing box is replaced by a gray box that displays 
+	     your entry.</item>
+	   </list>  
+	 </para>
+       </section>
+</section>
+       
+  </content>
+  
+</document>

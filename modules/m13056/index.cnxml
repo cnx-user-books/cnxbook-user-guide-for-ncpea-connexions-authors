@@ -1,0 +1,304 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Import Microsoft Word or OpenOffice documents</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m13056</md:content-id>
+  <md:title>Import Microsoft Word or OpenOffice documents</md:title>
+  <md:abstract>How to enter content into Connexions by importing Word documents (*.doc extension). Documents may be edited in Microsoft Word, or an open source editor like OpenOffice Writer that allows you to save a document as *.doc.</md:abstract>
+  <md:uuid>0ae16350-cfc2-424b-99ab-863569490b58</md:uuid>
+</metadata>
+
+<content>
+  
+<section id="Overview"><title>Overview</title><para id="eip-id1168514780251">One of the easiest paths for populating a module is the Word/OOo importer, which converts a *.doc document to CNXML. The importer <emphasis>overwrites</emphasis> any existing CNXML, so it is most useful as an initial import. We suggest using the online Edit-in-Place feature to make any further edits; any re-import of a Word or OpenOffice document will erase any other changes you have made using Edit-in-Place or the Full Source Editor.</para>
+	<para id="eip-id1168525063172"><title>Who should use the Word/OOo importer? </title>You should use the Word/OOo importer if you already have a Word or OpenOffice document saved that you wish to publish to the repository. The importer will correctly convert objects like section headings (designated by innate Word/OOo styles like <code display="inline">Heading 1</code> or <code display="inline">Heading 2</code>), paragraphs (separated by two line breaks), tables, lists, images, footnotes, and even mathematical objects.
+</para>
+	<para id="eip-id1168516992800">You can go one step further and apply the special CNXML styles in our template to your document so that you are able to import CNXML-specific objects like examples, problems, notes, citations, quotes, and more. The Word/OOo importer can produce most of the <link url="../eip-help/tags">CNXML</link> tags available for authors to use in their modules (see <link target-id="AuthoringWord">What can I import?</link> below) and several combinations of tags. Any use case not available as a Word/OOo style must be added after import, either using the Edit-in-Place interface (recommended) or full-source editing.
+</para><list id="eip-651" list-type="enumerated" number-style="arabic"><title>How does it work?</title><item>First you need to apply the CNXML styles from our <link url="http://cnx.org/help/authoring/templates/Connexions-Document.dot">template</link> to your document. We have sections below with specific instructions for both <link target-id="DownloadTemplate">Word</link> and <link target-id="ApplyTemplate">OpenOffice</link>.</item>
+<item>Next, you need to prepare your Word or OpenOffice document for import. The importer will ignore any user-defined styling, and requires specific markup in order to import other objects correct. We recommend that you read through the <link target-id="AuthoringWord">What can I import?</link> section to learn what can be imported and make sure that your document has been properly prepared.</item>
+<item>Be sure to save with a *.doc extension (Windows 97-2003 compatible).</item>
+<item>Create a new blank module in one of your Work Areas.</item>
+<item>Use the importer on either the <code display="inline">Edit</code> or <code display="inline">Files</code> tab to import your saved document.</item>
+</list>
+</section>
+
+	
+<section id="DownloadTemplate"><title>Preparing documents in Microsoft Word</title><para id="para1">Download a copy of the <link url="http://cnx.org/help/authoring/templates/Connexions-Document.dot">document template (*.dot)</link>.</para>
+	<para id="para2">You may also want to download a copy of a <link url="http://cnx.org/help/authoring/templates/WordExample.doc">sample document (*.doc)</link> that has been prepared to properly exercise all the features of the template. We encourage you to have a look at the document and practice uploading it (see <link target-id="Uploading">"Uploading Your Document"</link>) to get a feel for how the Word import process works.</para>
+	<section id="CreatingNewWord"><title>Creating a new document with the template</title>
+		<para id="para4">To create a new document in Microsoft Word to import into Connexions, download and open either the <link url="http://cnx.org/help/authoring/templates/Connexions-Document.dot">template</link> or the <link url="http://cnx.org/help/authoring/templates/WordExample.doc">sample document</link> from above. In Microsoft Word go to the <code display="inline">File</code> menu and select <code display="inline">Save As</code>. In the "Save As" dialog box that appears make sure that "Word Document (*.doc)" or "Word 97-2003 (*.doc)" appears in the <code display="inline">Save as Type</code> drop-down box. Give your document a unique name in the <code display="inline">File Name</code> box, and click the <code display="inline">Save</code> button. You have now created a new Word document with the template styles included in it. Delete the default text from the template and begin typing your document, adding styles as you go as described <link target-id="Authoring">below</link>.</para>
+		<para id="para5">Alternatively, you can install the template file into Word so that it is available through the <code display="inline">New</code> option in the Word <code display="inline">File</code> menu. Instructions to install this template are specific to your version of Word, so we recommend that you consult Word's Help feature if you wish to do so.</para>
+	</section>
+	<section id="ApplyingExistingWord"><title>Applying Styles to an Existing Document</title>
+		<para id="para6">If you already have a document that you wish to import, you will need to apply the template styles to the document. To apply the template to an existing document, first open that document in Word. Then, follow the steps below:</para>
+		<list id="newelement-905" list-type="enumerated">
+			<item>Go to the <code display="inline">Tools</code> menu and click <code display="inline">Templates and Add-Ins</code>.</item>
+			<item>Click the <code display="inline">Attach</code> button, and use the file browser to navigate to the folder where you saved the template file.</item>
+			<item>Select the "Connexions_Document.dot" icon in that folder and click <code display="inline">Open</code>.</item>
+			<item>In the “Templates and Add-Ins” window, make sure the “Automatically Update document styles” box is checked and click <code display="inline">Ok</code>. (<link target-id="templateFigure">Figure 1</link>)</item></list>
+		<figure id="templateFigure">
+			<media id="templateFigureMedia" display="block" alt="Apply template in Word dialog box.">
+				<image src="../content/m19610/latest/msword-applytemplate.jpg" mime-type="jpeg"/>
+			</media>
+			<caption>Microsoft Word's template add-in window.</caption>
+		</figure>
+		<para id="para7">As an alternative, you can also create a new blank document with the Word Importer template styles as described in <link target-id="CreatingNewWord">"Creating a New Document with the Template"</link>. Once you have done so, you can copy and paste the text from your original document into the new blank document as follows. Go to the <code display="inline">Edit</code> menu in the original Word document and select the <code display="inline">Select All</code> option. Then go to the <code display="inline">Edit</code> menu in the original Word document again and select the <code display="inline">Copy</code> option. This copies the text of the original document to your system clipboard. Next, go to the <code display="inline">Edit</code> menu in the new blank Word document with the Word Importer template styles and select the <code display="inline">Paste</code> option. The text of the original document is now copied into your new document, and you can begin modifying it with Word Importer style information as described in the next section.</para>
+	</section>
+
+<section id="StylesinWord"><title>Using styles in Microsoft Word</title>
+<para id="eip-162">If you are using Microsoft Word 97, you can find the style drop-down box on your format toolbar at the top of the screen (it usually displays the default style <code display="inline">Heading 1</code> or <code display="inline">Normal</code>). In newer versions of Word the style menu is located under the "Home" tab. Click the pop-out icon in the lower right corner of the Styles menu to see a list of all styles.
+
+<figure id="wordStylesMenu"><media id="wordStylesMenu.png" display="block" alt="Styles menu.">
+    <image mime-type="image/png" src="../content/m19610/latest/wordStylesMenu.png"/>
+  </media>
+<caption>The Styles menu in new versions of Word.</caption></figure></para><para id="eip-205">To apply a style to a specific piece of text, you follow the instructions below:
+<list id="newelement-904" list-type="enumerated">
+<item>Highlight the word, phrase, or paragraph you want to semantically mark up.</item>
+<item>Locate the styles menu.</item>
+<item> Click the name of the semantic style you want to apply to the highlighted text. The text that was highlighted is automatically given the style you selected.</item>
+</list></para>
+ </section>
+</section>
+
+<section id="ApplyTemplate"><title>Preparing documents in OpenOffice Writer</title><para id="eip-740">Download a copy of the <link url="http://cnx.org/help/authoring/templates/Connexions-Document.dot">document template (*.dot)</link>.</para><para id="p1">You may also want to download a copy of a <link url="http://cnx.org/help/authoring/templates/WordExample.doc">sample document (*.doc)</link> that has been prepared to properly exercise all the features of the template. We encourage you to have a look at the document and practice uploading it (see <link target-id="Uploading">"Uploading Your Document"</link> below) to get a feel for how the Word import process works.</para> 
+  
+<section id="CreatingNewOOo"><title>Creating a New Document with the Template</title> 
+  
+<para id="p2">To create a new document in OpenOffice Writer to import into Connexions, download and open either the <link url="http://cnx.org/help/authoring/templates/Connexions-Document.dot">template</link> or the <link url="http://cnx.org/help/authoring/templates/WordExample.doc">sample document</link> from above. In OpenOffice Writer go to the <code display="inline">File</code> menu and select <code display="inline">Save As</code>. In the "Save As" dialog box that appears make sure that "Word Document (*.doc)" or "Word 97-2003 (*.doc)" appears in the <code display="inline">Save as Type</code> drop-down box. Give your document a unique name in the <code display="inline">File Name</code> box, and click the <code display="inline">Save</code> button. You have now created a new document with the template styles included in it. Delete the default text from the template and begin typing your document, adding styles as you go as described <link target-id="Authoring">below</link>.</para> 
+ </section>
+<section id="ApplyingExistingOOo"><title>Applying the Template to an Existing Document</title> 
+  
+<para id="p3">To apply the template to an existing document, create a new blank document with the OpenOffice Importer template styles as described in <link target-id="CreatingNewOOo">"Creating a New Document with the Template"</link>. Once you have done so, you can copy and paste the text from your original document into the new blank document as follows. Go to the <code display="inline">Edit</code> menu in the original OpenOffice Writer document and select the <code display="inline">Select All</code> option. Then go to the <code display="inline">Edit</code> menu in the original OpenOffice Writer document again and select the <code display="inline">Copy</code> option. This copies the text of the original document to your system clipboard. Next, go to the <code display="inline">Edit</code> menu in the new blank OpenOffice Writer document with the OpenOffice Importer template styles and select the <code display="inline">Paste</code> option. The text of the original document is now copied into your new document, and you can begin modifying it with OpenOffice Importer style information as described in the next section.</para> 
+</section> 
+
+<section id="AuthoringOOo"><title>Using styles in OpenOffice Writer</title> 
+  
+<para id="p5">You can see the styles available to you with the template by going to the <code display="inline">Format</code> menu and selecting the <code display="inline">Styles and Formatting</code> option. This brings up the "Styles and Formatting" box. Paragraph styles (such as <code display="inline">Heading 1</code>, <code display="inline">Heading 2</code>, and <code display="inline">CNXML Quote</code>) are available by clicking on the leftmost icon at the top of the box. Character styles (such as <code display="inline">CNXML Emphasis</code>, <code display="inline">CNXML Code</code>, and the rest of the application-specific styles) are available by clicking on the second-leftmost icon at the top of the box .</para> 
+  
+<figure id="OOostylesfig" orient="horizontal">
+  <subfigure id="paragraphsubfigure">
+  <media id="fig1media" alt="Styles and Formatting dialog box, paragraph styles showing." display="block">
+    <image src="../content/m19610/latest/oowriter-paragraphstyles.jpg" mime-type="image/jpeg"/>
+  </media>
+  <caption>Paragraph styles.</caption>
+  </subfigure>
+
+  <subfigure id="charactersubfigure">
+  <media id="fig2media" alt="Styles and Formatting dialog box, character styles showing." display="block">
+    <image src="../content/m19610/latest/oowriter-characterstyles.jpg" mime-type="image/jpeg"/>
+  </media>
+  <caption>Character styles.</caption>
+  </subfigure>
+</figure> 
+
+<para id="p6">To apply a style to a specific piece of text, you follow the instructions below:
+<list id="newelement-906" list-type="enumerated">
+<item>Select the appropriate style from the "Styles and Formatting" box.</item> 
+  
+<item> Make sure the "Fill Format Mode" tool is selected in the "Styles and Formatting" box (appears as the paint bucket icon in the<link target-id="OOostylesfig">figure</link> above. 
+  
+</item><item>Highlight the text to which you wish to apply the style, and it will be applied.</item>
+</list></para> 
+  
+ 
+  
+ </section>
+</section>
+
+
+
+<section id="AuthoringWord"><title>What can I import?</title><list id="eip-806"><item><link target-id="WordStyles">Text markup using the template styles</link></item>
+<item><link target-id="eip-854">Other objects</link></item>
+<item><link target-id="MathTypeCaution">Caution to users of MathType 5</link></item>
+<item><link target-id="eip-120">Some common mistakes</link></item></list><section id="WordStyles"><title>Text markup using the template styles</title><para id="id1165715066859">We can use the text styles provided by the template to generate Connexions text markup tags when the document is imported. </para>
+	<para id="id1508701">
+		<title>Emphasis</title>
+		The <code display="inline">CNXML Emphasis</code> style is used to give <link url="http://cnx.org/eip-help/emphasis">emphasis</link> to important text. Use this style where you would have used bold or italics to emphasize particular words or phrases. Note that <emphasis effect="bold">boldface</emphasis> and <emphasis effect="italics">italicized</emphasis> text will both import as an emphasis tag with the appropriate effect attribute.</para>
+	
+	<para id="id1165709908365">
+		<title>Foreign</title>
+		The <code display="inline">CNXML Foreign</code> style allows us to designate a term which is in another language than the rest of the text. We can also point its usage at a website of our choice by marking it as a hyperlink in addition to <code display="inline">CNXML Foreign</code>. This will produce <link url="http://cnx.org/eip-help/foreign">foreign</link> text in a module.</para>
+	
+	<para id="id1165715189715">
+		<title>Code</title>
+		With the <code display="inline">CNXML Code</code> style, we can designate inline text as <link url="http://cnx.org/eip-help/code">code</link> written in a computer programming language. Use <code display="inline">CNXML Code (Block)</code> to designate blocks of code that should be set off from surrounding text.</para>
+		
+		
+	
+	<para id="id1165713928484">
+		<title>Cite</title>
+		The <code display="inline">CNXML Cite</code> style allows us to refer to non-electronic sources. If you are using Microsoft Word to prepare your document, you can cite a hyperlinked source by marking it as a hyperlink and then applying <code display="inline">CNXML Cite</code>. This is produce a <link url="http://cnx.org/eip-help/cite">citation</link> in Connexions.</para>
+	
+	<para id="id1165711590267">
+		<title>Term</title>
+		With the <code display="inline">CNXML Term</code> style, we can designate key <link url="http://cnx.org/eip-help/term">terms</link> in our document. If you are using Microsoft Word to prepare your document, you can also point this term at an example of its usage by marking it as a hyperlink and then applying CNXML Term.</para>
+	
+	<para id="id1165711342728">
+		<title>Quote</title>
+		Using the <code display="inline">CNXML Quote (Block)</code> style, we can designate a section of text as a block <link url="http://cnx.org/eip-help/quote">quote</link> from another source. Use <code display="inline">CNXML Quote (Inline)</code> to designate inline quotes that should not be set apart from the surrounding text. If you are using Microsoft Word to prepare your document, you could also point this at an online source by marking it as a hyperlink and then applying <code display="inline">CNXML Quote (Inline)</code>.</para>
+		
+		
+	
+	<para id="id1165712035034">
+		<title>Hyperlinks</title>
+		Using the <code display="inline">Hyperlink</code> style, we can create a hyperlink pointing to a URL. This will become a <link url="http://cnx.org/eip-help/link">link</link> element in your Connexions module. We can also point at specific locations within the document by pointing, for example, at any section title created using the <code display="inline">H1</code>, <code display="inline">H2</code>, … styles, or at any bookmark we have inserted into the document.</para>
+		
+		
+	
+	<para id="id8195645">
+		<title>Exercise</title>
+		We can make <link url="http://cnx.org/eip-help/exercise">exercises</link> that only have problems by marking them up using the <code display="inline">CNXML Exercise (Problem)</code> style. We can also make exercises that have problems and solutions by following the text marked <code display="inline">CNXML Exercise (Problem)</code> with some more text marked <code display="inline">CNXML Exercise (Solution)</code>.</para>
+		
+		
+		
+	
+	<para id="id8283001">
+		<title>Theorems</title>
+		We can have <link url="http://cnx.org/eip-help/rule">theorems</link> with or without proofs. To make a theorem statement, we can use the <code display="inline">CNXML Theorem (Statement)</code> style. To construct a theorem with both a statement and a proof, we use <code display="inline">CNXML Theorem (Statement)</code> followed by <code display="inline">CNXML Theorem (Proof)</code>.</para>
+		
+		
+		
+		
+	
+	<para id="id1165708458699">
+		<title>Definitions</title>
+		We can have <link url="http://cnx.org/eip-help/term">terms</link> with <link url="http://cnx.org/eip-help/definition">definitions</link>. To do so, we mark the term using the <code display="inline">CNXML Definition (Term)</code> style, and we follow it with the explanation marked using the <code display="inline">CNXML Definition (Meaning)</code> style.</para>
+		
+	
+	<para id="id5372129">
+		<title>Notes</title>
+		We can create <link url="http://cnx.org/eip-help/note">note</link> boxes using the <code display="inline">CNXML Note</code> style.</para>
+		
+	
+	<para id="id1165701743452">
+		<title>Examples</title>
+		We can create <link url="http://cnx.org/eip-help/example">example</link> boxes using the <code display="inline">CNXML Example</code> style.</para>
+		
+	
+</section>
+
+
+<section id="eip-854"><title>Other objects</title><para id="id5346394">We can do more than just mark up text using the Word/OOo importer. We can also add images to our document, create tables, add lists, and even insert mathematical expressions…</para>
+	<para id="eip-48"><title>Sections</title>
+			<code display="inline">H1</code> applied to a section title produces a new <link url="http://cnx.org/eip-help/section">section</link>. The section lasts until the next <code display="inline">H1</code>-marked title. An <code display="inline">H2</code>-marked title in between produces a subsection (which lasts until the next <code display="inline">H2</code>- or <code display="inline">H1</code>-marked title).</para><para id="eip-831"><title>Paragraphs</title>You can also use certain features of the Word or OpenOffice editor to produce other CNXML tags. Pressing <code display="inline">Enter</code> gives a new line and produces a new <link url="http://cnx.org/eip-help/para">paragraph</link>.</para><para id="id1165719868323">
+		<title>Images</title>
+	You can insert <link url="http://cnx.org/eip-help/image">images</link> into your Word document as you would normally, and they will import into Connexions. It’s best to stick to image types such as  with .eps, .jpg, .png, and .gif (or any format with a valid <link url="http://www.duke.edu/websrv/file-extensions.html">image type</link>); avoid formats such as .wmf and .svg, and avoid Clip Art. </para><para id="eip-226">Use only images that are locally available on your machine. Make sure either that (1) the images are already available under a <link url="http://creativecommons.org/licenses/by/3.0/">creative commons (CC) attribution license</link>, or (2) you own the image copyrights and are willing to make them available under a CC attribution license.</para>
+		
+	
+	<para id="eip-453"><title>Figure</title>
+We can precede images with text marked with the <code display="inline">CNXML Figure Title</code> style to give them a title, and follow them with text marked in the <code display="inline">CNXML Figure Caption</code> style to give them a caption. This will produce a <link url="http://cnx.org/eip-help/figure">figure</link> in the module.
+</para><para id="id1165701937991">
+		<title>Tables</title>
+		Using the built-in Word table editor, we can create <link url="http://cnx.org/eip-help/table">tables</link> which are easily imported into Connexions. </para>
+		
+	
+	<para id="id1165706328727">
+		<title>Lists</title>
+		
+		We can create both bulleted and numbered <link url="http://cnx.org/eip-help/list">lists</link> using Word or OpenOffice and bring them into Connexions using the importer.</para>
+		
+		
+		
+	
+	<para id="id1165717184430"><title>Mathematics</title>We can include mathematics in a line of text. Mathematics set off from other text in its own paragraph will import as an <link url="http://cnx.org/eip-help/equation">equation</link>.</para>
+
+<para id="eip-438">In OpenOffice, choose <code display="inline">Insert &gt; Object</code> from the menu and then select <code display="inline">Formula</code>. </para><para id="installmath">In Word we can use the built-in Equation Editor 3.0. To do this, choose <code display="inline">Insert &gt; Object</code> from the menu and select Equation Editor 3.0. <note id="insertobject" display="inline" type="warning">It is very important that you insert and equation through the <code display="inline">Object</code> menu. Newer versions of Microsoft Word have an option to insert an Equation, located under the <code display="inline">Symbols</code> menu. Do not use this as it will not import correctly.</note></para>
+
+<figure id="wordEquationEditor-figure">
+  <media id="wordEquationEditor" display="block" alt="Insert equations through the Object menu.">
+    <image mime-type="png/image" src="../content/m19610/latest/wordEquationObject.png"/>
+  </media>
+<caption>Insert equations through the Object menu.</caption>
+</figure>
+
+	<para id="eip-341">If you can’t find the Equation Editor 3.0 option in the list, you must install Equation 3.0 from your Microsoft Office installation CD. Please consult your Microsoft Office help for more information on this procedure.</para><note id="eip-770" type="warning">If you have MathType 5 installed on your system, math will not import correctly. See <link target-id="MathTypeCaution">below</link> for how to remedy this.</note><figure id="figure4">
+		<media id="figure4media" display="block" alt="Insert an equation 3.0 object into your Word document.">
+			<image mime-type="image/jpeg" src="http://cnx.org/content/m19610/latest/msword-inserteqedobject.jpg"/>
+		</media>
+		<caption>Microsoft Office object insert window.</caption>
+	</figure>
+
+		
+		
+		
+		
+	
+	<para id="id1165715064374">
+		<title>Footnotes</title>
+		Footnotes inserted using the native footnote tool will import as Connexions <link url="http://cnx.org/eip-help/footnote">footnotes</link>.</para>
+	
+	<para id="eip-478"><title>Glossary</title>
+Finally, we can designate a <link url="http://cnx.org/eip-help/glossary">glossary</link> section for our module. We must first give it a title and mark that with the <code display="inline">CNXML Glossary Section</code> style. This must be the last section designation used at the end of your word document, and it cannot be followed by H1, H2, etc. styles. Then, for each glossary element we wish to include, we mark the term portion with <code display="inline">CNXML Definition (Term)</code> and the meaning portion with <code display="inline">CNXML Definition (Meaning)</code>, as we did before in the body of our document. </para></section>
+
+<section id="MathTypeCaution"><title>Caution to users of MathType 5</title><para id="para12">MathType 5 is a stand-alone equation editing package written by Design Science, makers of the Microsoft Equation 3.0 editor. When MathType 5 is installed on your system, equations written with the Microsoft equation editor will be saved as MathType 5 equations rather than Equation 3.0 equations. Even merely editing equations from a document with Equation 3.0 equations on a machine with MathType 5 will cause those equations to be saved in MathType 5 format. This is problematic, since the Word importer cannot properly convert MathType 5 equations to Presentation MathML.</para><para id="eip-938">We recommend un-installing MathType 5 from your system if it is currently installed. This will cause Word to revert to using Equation 3.0 for equation editing, which will allow the Word importer to properly generate mathematics.</para><para id="eip-505">Should you inadvertently include a MathType 5 equation in your Word document, in the Edit-in-Place interface where the mathematics should appear you will instead see the warning message shown in <link target-id="figure5">Figure 5</link>.</para>
+		<figure id="figure5">
+			<media id="figure5media" display="block" alt="***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED***">
+				<image src="http://cnx.org/content/m19610/latest/eip-display-para-unsupportedmedia.jpg" mime-type="image/jpeg"/>
+			</media>
+			<caption>Edit-in-Place warning for MathType mathematics import.</caption>
+		</figure><para id="eip-238">You can go replace each of these warning messages by hand using the following procedure. To begin, double click on the MathType equation in Word to open the MathType editor.</para><para id="eip-38">If this is your first time to use this procedure, you must configure MathType to properly generate MathML. Go to the <code display="inline">Preferences</code> menu and select the <code display="inline">Translators</code> option. In the window that appears, make sure that “Translation to other language (text)” is selected, and in the drop-down box next to “Translator:”, select the “MathML 2.0 (m namespace)” option. Also, make sure that “Include translator name in translation” and “Include MathType data in translation” are NOT selected (see <link target-id="figure6">Figure 6</link> below). Click <code display="inline">OK</code> to complete the configuration. This sets the translation preferences permanently, so you will not have to repeat these steps again.</para>
+		<figure id="figure6">
+			<media id="figure6media" display="block" alt="Translators dialog box.">
+				<image src="http://cnx.org/content/m19610/latest/mathtype-settranslators.jpg" mime-type="image/jpeg"/>
+			</media>
+			<caption>Setting the translator in MathType to copy MathML to the system clipboard.</caption>
+		</figure><para id="eip-55">Once the Translators preferences are set, you can copy the MathType equation’s MathML equivalent by highlighting the equation in the MathType editor and copying to the clipboard (<code display="inline">Edit</code> menu, <code display="inline">Copy</code> option). This stores a copy of the MathML on your system’s clipboard.</para><para id="eip-342">Return to your browser and find the appropriate placeholder for the equation in the Edit-in-Place interface (appearing as in <link target-id="figure5">Figure 5</link>). Double click to edit the paragraph and delete the text “***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED***” (Figure <link target-id="figure7">Figure 7</link> below). Paste the contents of the clipboard into is place (Figure <link target-id="figure8">Figure 8</link>), and click Save. Your equation should now appear in the Edit-in-Place interface (Figure <link target-id="figure9">Figure 9</link>).</para>
+
+		<figure id="figure7">
+			<media id="figure7media" display="block" alt="***SORRY, THIS MEDIA TYPE IS NOT SUPPORTED***">
+				<image src="http://cnx.org/content/m19610/latest/eip-edit-para-unsupportedmedia.jpg" mime-type="image/jpeg"/>
+			</media>
+			<caption>Editing the paragraph with the warning text</caption>
+		</figure>
+
+		<figure id="figure8">
+			<media id="figure8media" display="block" alt="Paste in MathML into the paragraph.">
+				<image src="http://cnx.org/content/m19610/latest/eip-edit-para-pastemml.jpg" mime-type="image/jpeg"/>
+			</media>
+			<caption>Pasting the MathML copied from the MathType editor into the paragraph where the equation should appear.</caption>
+		</figure>
+
+		<figure id="figure9">
+			<media id="figure9media" display="block" alt="How the paragraph with MathML displays after you click 'Save'.">
+				<image src="http://cnx.org/content/m19610/latest/eip-display-para-mml.jpg" mime-type="image/jpeg"/>
+			</media>
+			<caption>MathML equation appearing in the edit-in-place interface.</caption>
+		</figure></section><section id="eip-120"><title>Some common mistakes</title><para id="eip-201">
+It is important that you follow the instructions on this page for each object. Do not use other objects or text, including:
+
+<list id="eip-397" list-type="enumerated" number-style="arabic"><item>Do not add line breaks betwen paragraphs using <code display="inline">cntl-Enter</code>. This will not import as a new paragraph.</item><item>Do not use tabs. This formatting will not import.</item><item>Do not use lists or tables to invisibly format the document, as these constructs are literally imported as lists and tables into CNXML.</item><item>Do not continue list numbering across separate lists.</item><item>Do not insert images whose source files are remotely available via a hyperlink.</item><item>Do not use Word’s image captioning option; the caption will import as a new paragraph.</item><item>Do not use fonts such as “Wingdings" to produce symbols: They will be interpretted as text.</item><item>Do not use the MathType editor inside Word to create equations. This is the default (and only) option if MathType is installed on your system. See the <link target-id="MathTypeCaution">Notes on Including Mathematics</link> section for more details.</item></list>
+
+</para></section>
+
+
+</section>
+
+<section id="Uploading">
+<title>Uploading your document</title>
+<list id="uploadlist1" list-type="enumerated">
+  <item>If you have not already done so, <link url="http://cnx.org/help/authoring/createmodule">create</link> a new blank module.</item>
+  <item>Use the help documents linked above to ensure you have prepared your document correctly; otherwise you may get an error.</item>
+  <item>The importer dropdown menu is accessible on both the module <code>Content</code> tab and the <code>Files</code> tab when editing the module. Choose the importer type from the dropdown menu and click <code>Import</code></item>
+</list>
+
+<figure id="uploadfig1">
+<media id="uploadmedia1" display="block" alt="The module import menu (expanded).">
+  <image mime-type="png/image" src="http://cnx.org/content/m19610/latest/import-menu-expanded.png"/>
+</media>
+<caption>The module import menu (expanded).</caption>
+</figure>
+
+<list id="uploadlist2" list-type="enumerated" start-value="4">
+  <item>On the next page, browse to your saved file on your harddrive and click <code>Import</code>.</item>
+</list>
+
+<figure id="uploadfig2">
+<media id="uploadmedia2" display="block" alt="Browse to file.">
+  <image mime-type="jpeg/image" src="http://cnx.org/content/m19610/latest/edittext-import-browse-empty.jpg"/>
+</media>
+<caption>Browse to file.</caption>
+</figure>
+</section>
+
+
+</content>
+</document>
