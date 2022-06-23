@@ -1,14 +1,14 @@
 <col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
-    <md:content-id>col10304</md:content-id>
-    <md:title>User Guide for NCPEA Connexions Authors</md:title>
+    <md:content-id>col10404</md:content-id>
+    <md:title>New Author Guide</md:title>
     <md:language>en</md:language>
     <md:license url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution License</md:license>
-    <md:uuid>98be0e0b-2403-4798-83eb-1db535213a1f</md:uuid>
-<md:slug>user-guide-for-ncpea-connexions-authors</md:slug>
+    <md:uuid>dcd7f4c2-2dc1-43ed-a6e5-a4d2be87b36a</md:uuid>
+<md:slug>new-author-guide</md:slug>
 </metadata>
   <col:content>
-    <col:module document="m13051"/>
+    <col:module document="m14346"/>
     <col:module document="m13050"/>
     <col:module document="m13049"/>
     <col:module document="m13056"/>

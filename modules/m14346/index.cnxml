@@ -1,0 +1,50 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Introduction to the New Author Guide</title>
+  <metadata>
+  <md:content-id>m14346</md:content-id><md:title>Introduction to the New Author Guide</md:title>
+  <md:abstract>An overview of the New Author Guide and its purpose.</md:abstract>
+  <md:uuid>e722bdcc-a308-46ce-bc9e-507e21f52172</md:uuid>
+</metadata>
+
+<content>
+
+<section id="purposesect1">
+<title>The Purpose of this User Guide</title>
+<para id="element-479">The purpose of this user guide is to instruct new Connexions authors on creating, revising, and publishing content with the Connexions system. 
+</para>
+</section>
+
+<section id="whosect1">
+<title>Who Should Use this Guide</title>
+<para id="whopara1">This user guide is intended for anyone who wants to author material in Connexions. </para>
+</section>
+
+<section id="contentsect1">
+<title>What this Guide Contains</title>
+<para id="contentpara1">
+The topics addressed in this guide are:
+<list id="topiclist1" list-type="bulleted">
+<item><term>Connexions Accounts</term> - An account enables you to write, edit, and publish your content in Connexions.</item>
+<item><term>Workgroups</term> - A workgroup is similar to a file directory on your computer. A directory in which you create and edit your documents before you publish them. </item>
+<item><term>Importing Microsoft Word Documents</term> - Connexions can do what it does because its content is marked up with XML-based tags called CNXML. But do not worry, you can import Word documents directly into Connexions and sidestep the CNXML. </item>
+<item><term>Revising Your Content</term> - You can edit your content in Connexions by re-importing your Word document or by using an editor provided by Connexions.</item>
+<item><term>Publishing in Connexions</term> - When you are ready for the world to see your content, you publish it. Anyone anywhere with an Internet browser and access to the Internet can view your content after you publish in Connexions.</item>
+<item><term>Additional Connexions Information Sources</term> - Additional bits of information about Connexions that you may want to learn and use. </item>
+</list>
+</para>
+</section>
+
+<section id="cxnoverviewsect">
+<title>A Brief Description of Connexions</title>
+    <para id="intropara1">
+Connexions is a Web-based document creation and management system for education and research materials. There are two parts to Connexions: a Content Commons that contains these materials and the software tools necessary to create, manage, and access these materials. A tour of the workings of Connexions and its parts appears on the Connexions Web page <link url="http://cnx.rice.edu">(http://cnx.rice.edu)</link>, under the "About" tab.
+</para>
+
+<para id="intropara2">
+From its inception, Connexions was designed to allow the collaborative development and free availability of material. Instructors and authors can use and reuse the material in Connexions for any educational purpose. Connexions offers Free/Open Source software tools to help instructors and authors manage these information assets for sharing and advancing knowledge to benefit of students in the global educational community. All of this is accomplished through the use of the <link url="http://creativecommons.org/licenses/by/2.0/">Creative Commons Attribution license</link> (http://creativecommons.org/licenses/by/2.0/).
+    </para>   
+</section>
+
+  </content>
+  
+</document>
